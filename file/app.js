@@ -2,7 +2,7 @@ const fs = require('fs');
 const fileName = 'example.txt';
 const fileName2 = 'example2.txt';
 
-//create file
+// create file
 fs.writeFile(fileName, 'this is an example', (err) => {
     if (err) {
         console.log(err);
