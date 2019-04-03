@@ -1,0 +1,21 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"  //major.minor.patch 
+    // patch update = some bug fixes
+    // minor update = new functionality (non-breaking chng)
+    // major update = breaking change
+    // if run npm update
+    // ^ = 4.x.x only update minor or patch
+    // ~ = 4.17.x only update patch
+    // none = forever 4.17.11
+  }
+}
